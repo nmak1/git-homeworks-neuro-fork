@@ -7,6 +7,7 @@
             coordsEl.parentElement.classList.remove('invisible');
         });
     }
+(() => {
     const earlyorderForm = document.querySelector('#earlyorder-form');
 
     earlyorderForm.addEventListener('submit', ev => {
@@ -33,6 +34,8 @@
             coordsEl.parentElement.classList.remove('invisible');
         });
     }
+(async () => {
+    // TODO: add custom logic here
 (async () => {
     // TODO: add custom logic here
 })();
